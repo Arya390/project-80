@@ -1,51 +1,61 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <script src="Tmain.js"></script>
-        <title>project 80</title>
-    </head>
-    <body>
-        <div id="rows">
-            <input type="text" id="parrel_input_box_1" placeholder="Input_box_1">
+<head>
+	<title>Project C80</title>
+</head>
+<body>
+	<center>
+		<h1>Make paragraphs from input boxes using join function</h1>
+		<div style="float: left;">
+		<h4>
+			<span>1. </span>
+			<input type="text" id="div1_input_box_1" placeholder="Input box 1">
+			<br><br>
+			<span>2. </span>
+			<input type="text" id="div1_input_box_2" placeholder="Input box 2">
+			<br><br>
+			<span>3. </span>
+			<input type="text" id="div1_input_box_3" placeholder="Input box 3">
+			<br><br>
+			<span>4. </span>
+			<input type="text" id="div1_input_box_4" placeholder="Input box 4">
+			<br><br>
+			<span>5. </span>
+			<input type="text" id="div1_input_box_5" placeholder="Input box 5">
+			<br><br>
+			<span>6. </span>
+			<input type="text" id="div1_input_box_6" placeholder="Input box 6">
+		</h4>
+		<button onclick="getParagraph1()">Get paragraph 1</button>
+		</div>
 
-            <input type="text" id="parrel_input_box_2" placeholder="Input_box_2">
+		<div style="float: right;">
+		<h4>
+			<span>1. </span>
+			<input type="text" id="div2_input_box_1" placeholder="Input box 1">
+			<br><br>
+			<span>2. </span>
+			<input type="text" id="div2_input_box_2" placeholder="Input box 2">
+			<br><br>
+			<span>3. </span>
+			<input type="text" id="div2_input_box_3" placeholder="Input box 3">
+			<br><br>
+			<span>4. </span>
+			<input type="text" id="div2_input_box_4" placeholder="Input box 4">
+			<br><br>
+			<span>5. </span>
+			<input type="text" id="div2_input_box_5" placeholder="Input box 5">
+			<br><br>
+			<span>6. </span>
+			<input type="text" id="div2_input_box_6" placeholder="Input box 6">
+		</h4>
+		<button onclick="getParagraph2()">Get paragraph 2</button>
+		</div>
 
-            <input type="text" id="parrel_input_box_3" placeholder="Input_box_3">
+	</center>
+<br>
+		<h1 id="showParagraph1"></h1>
+		<h1 id="showParagraph2"></h1>
 
-            <input type="text" id="parrel_input_box_4" placeholder="Input_box_4">
-
-            <input type="text" id="parrel_input_box_5" placeholder="Input_box_5">
-
-            <input type="text" id="parrel_input_box_6" placeholder="Input_box_6">
-
-        </div>
-
-        <button onclick="showpara1()" id="show_para_1">
-           Get paragraph 1
-        </button>
-
-        <div id="row2">
-
-            <input type="text" id="parrel_input_box_7" placeholder="Input_box_7">
-
-            <input type="text" id="parrel_input_box_8" placeholder="Input_box_8">
-
-            <input type="text" id="parrel_input_box_9" placeholder="Input_box_9">
-
-            <input type="text" id="parrel_input_box_10" placeholder="Input_box_10">
-
-            <input type="text" id="parrel_input_box_11" placeholder="Input_box_11">
-
-            <input type="text" id="parrel_input_box_12" placeholder="Input_box_12">
-
-        </div>
-
-        <button onclick="showpara2()" id="show_para_2">
-            Get paragraph 2
-         </button>
-
-         <div id="get_paragraph_1"></div>
-         <div id="get_paragraph_2"></div>
-         
-    </body>
+</body>
 </html>
